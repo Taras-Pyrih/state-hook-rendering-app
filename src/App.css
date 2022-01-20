@@ -3,25 +3,3 @@
   padding: 0;
   box-sizing: border-box;  
 }
-
-.Counter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.Counter button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 30px;
-  height: 30px;
-  font-size: 20px;
-}
-
-.Counter p {
-  padding: 0 20px;
-  font-size: 24px;
-  font-weight: bold;
-}

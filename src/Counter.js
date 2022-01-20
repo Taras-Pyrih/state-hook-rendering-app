@@ -1,9 +1,10 @@
+import './Counter.css';
 import React, { useState } from 'react';
 
 export const Counter = () => {
   const [count, setCount] = useState(0);
 
-  function handleMinusClick() {
+  const handleMinusClick = () => {
     if (count > 0) {
       setCount(count - 1);
     }
